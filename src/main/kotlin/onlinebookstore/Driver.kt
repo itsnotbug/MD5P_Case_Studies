@@ -15,12 +15,13 @@ fun main(){
 
     // Add books to cart
     shoppingCart.addToCart(book1)
+    shoppingCart.addToCart(book2)
 
     // Remove a book from cart
     shoppingCart.removeFromCart(book2)
 
     // Display cart contents
-      shoppingCart.displayCart()
+    shoppingCart.displayCart()
 
     // Display book categories
     fictionCategory.displayCategory()
